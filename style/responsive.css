@@ -1,0 +1,147 @@
+/* laptop device 1200px */
+@media (max-width: 1200px) {
+
+  #banner,
+  #discuss,
+  #target {
+    width: 90%;
+  }
+
+  .heading-content {
+    width: 80%;
+  }
+
+  #video-content iframe {
+    height: 500px;
+  }
+
+  .discuss-card {
+    padding: 40px;
+  }
+
+  .target-card {
+    width: 30%;
+    padding: 30px;
+  }
+}
+
+/* tablet device 768px */
+@media (max-width: 768px) {
+  #header-container {
+    max-width: 90%;
+  }
+
+  #banner {
+    padding: 30px 40px;
+  }
+
+  .banner-content h1 {
+    font-size: 36px;
+  }
+
+  .heading-content {
+    width: 90%;
+  }
+
+  .discuss-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .discuss-content {
+    order: 2;
+  }
+
+  .developer-img {
+    order: 1;
+  }
+
+  #video-content {
+    padding: 20px;
+  }
+
+  #video-content iframe {
+    height: 400px;
+  }
+
+  #target-card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .target-card {
+    width: 45%;
+  }
+
+  #footer {
+    padding: 32px 40px;
+  }
+  .footer-right {
+    gap: 20px;
+  }
+}
+
+/* mobile device 425px */
+@media (max-width: 425px) {
+  #header-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #banner {
+    padding: 10px;
+    margin: 30px auto;
+  }
+
+  .banner-content h1 {
+    font-size: 28px;
+  }
+
+  .banner-content p br {
+    display: none;
+  }
+
+  .btn {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .heading-content h2 {
+    font-size: 25px;
+  }
+
+  .discuss-card {
+    padding: 20px;
+  }
+
+  #video-content {
+    padding: 10px;
+  }
+
+  #video-content iframe {
+    height: 250px;
+  }
+
+  .target-card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #footer {
+    padding: 10px;
+  }
+
+  #footer-container {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-right a img {
+    font-size: 28px;
+  }
+}
